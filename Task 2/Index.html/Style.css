@@ -1,1 +1,113 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+header {
+  background-color: #34495e;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* About */
+.about {
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills {
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.skills li {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+/* Projects */
+.projects {
+  background-color: #fff;
+}
+
+.project-card {
+  background: #f1f1f1;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+/* Resume */
+.resume {
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: #34495e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+/* Contact */
+.contact {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
